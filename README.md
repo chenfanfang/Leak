@@ -2,9 +2,9 @@
 swift 内存泄漏动态检测工具
 
 使用步骤
-1、下载源码
-2、将源码中的MemoryLeakMonitor文件夹导入到swift项目中
-3、启动内存泄漏检测【只会在Debug模式下失效】
+1、下载源码\n
+2、将源码中的MemoryLeakMonitor文件夹导入到swift项目中\n
+3、启动内存泄漏检测【只会在Debug模式下失效】\n
 ```
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
